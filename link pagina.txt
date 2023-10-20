@@ -1,0 +1,2 @@
+Link netlify:
+https://pokeapptrainee.netlify.app

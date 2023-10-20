@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+}
+
+
+h1, h2, h3{
+    text-align: center;
+    
+}
+.menu{
+    gap: 50px;
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.juego{
+    text-align: left;
+    list-style: none;
+    padding: 15px;
+}
+
+
+
+h2{
+    margin: 20px;
+}
+
+legend{
+    padding: 25px;
+}
+.form{
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    background-color: rgb(84, 32, 32);
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 30px;
+    
+}
+
+.carousel slide{
+    justify-content: center;
+    
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    background-color: rgb(72, 29, 72);
+}
