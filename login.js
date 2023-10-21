@@ -17,10 +17,10 @@ function validarFormulario (evento) { //validarFormulario es la función que hac
     
     evento.preventDefault(); // Evita que el formulario se envíe automáticamente
     
-    if($email.value.trim() === ""){
+    if(email.value.trim() === ""){
         alert("Escribe tu email para iniciar sesión!")
         return;
-    }if($contraseña.value.trim()=== ""){
+    }if(contraseña.value.trim()=== ""){
         alert("Por favor, escribe una contraseña")
         return;
     }if($nombre.value.trim()=== ""){
@@ -30,4 +30,7 @@ function validarFormulario (evento) { //validarFormulario es la función que hac
         alert("Debes ser mayor de edad")
         return;
         alert("Ingreso exitoso!")}}
+    
+        //boton de enviar
+
     
